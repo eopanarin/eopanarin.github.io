@@ -1,0 +1,125 @@
+.html, body {
+    background: url(backgr/Simple.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo {
+    color: #f7f5eb;
+}
+
+.header__link {
+    padding: 5%;
+    text-decoration: none;
+    color: #f7f5eb;
+    border: 3px solid #f7f5eb;
+    background-color: #052233;
+    border-radius: 10%;
+}
+
+.container {
+    background-color: #052233;
+    padding: 1%;
+    margin: 0 4%;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.gallery__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f7f5eb;
+}
+
+.gallery__items {
+    padding: 0 3%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery__items li {
+    flex: auto;
+    width: 640px;
+    height: auto;
+    position: relative;
+}
+
+
+.gallery__items li img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+.footer {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__links {
+    background-color: #052233;
+    border: 3px  solid #f7f5eb;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.footer__link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__links img {
+    padding: 0 20px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.copyright {
+    text-align: center;
+    text-decoration: none;
+    color: #f7f5eb;
+}
+
+@media screen and (min-width: 1024px) {
+  .gallery__items li {
+      width: 480px;
+  }
+}
+
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .gallery__items li {
+  }
+} */
+
+/* @media screen and (min-width: 481px) and (max-width: 768px) {
+  .gallery__items li {
+  }
+} */
+
+/* @media screen and (min-width: 321px) and (max-width: 480px) {
+  .gallery__items li {
+  }
+} */
+
+/* @media screen  and (max-width: 320px) {
+  .gallery__items li {
+  }
+} */
